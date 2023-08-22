@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>역사박물관</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #wrap{
+            width: 100%;
+        }
+        #main{
+            display: flex;
+        }
+        #header {
+            width: 200px;
+        }
+        #header .logo{
+            width: 100%;
+            height: 100px;
+            background-color: #2ec77b;
+        }
+        #header .nav {
+            width: 100%;
+            height: 650px;
+            background-color: #00ffea;
+        }
+        #contents {
+            width: 400px;
+            height: 750px;
+        }
+        #contents .notice {
+            width: 100%;
+            height: 40%;
+            background-color: #8c00ff;
+        }
+        #contents .gallery {
+            width: 100%;
+            height: 40%;
+            background-color: #6e1a52;
+        }
+        #contents .link{
+            width: 100%;
+            height: 20%;
+            background-color: #ff7300;
+        }
+        #slider {
+            width: calc(100% - 600px);
+            height: 750px;
+            background-color: #c8ff00;
+        }
+        #footer {
+            width: 100%;
+            display: flex;
+        }
+        #footer .footer1 {
+            width: 200px;
+            height: 100px;
+            background-color: #b3ff00;
+        }
+        #footer .footer2 {
+            width: calc(100% - 500px);
+            height: 100px;
+            background-color: #0040f0;
+        }
+        #footer .footer3 {
+            width: 300px;
+            height: 100px;
+            background-color: #ff0000;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <main id="main">
+            <header id="header">
+                <h1 class="logo"></h1>
+                <nav class="nav"></nav>
+            </header>
+            <section id="contents">
+                <article class="notice"></article>
+                <article class="gallery"></article>
+                <article class="link"></article>
+            </section>
+            <aritcle id="slider"></aritcle>
+        </main>
+        <footer id="footer">
+            <div class="footer1"></div>
+            <div class="footer2"></div>
+            <div class="footer3"></div>
+        </footer>
+    </div>
+</body>
+</html>

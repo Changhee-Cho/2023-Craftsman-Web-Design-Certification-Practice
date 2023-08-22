@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>푸른마을</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #wrap {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #aside {
+            width: 200px;
+        }
+        #aside .logo {
+            width: 100%;
+            height: 150px;
+            background-color: #a400b3;
+        }
+        #aside .nav {
+            width: 100%;
+            height: 700px;
+            background-color: #adab0d;
+        }
+        #main {
+            width: calc(100% - 200px);
+        }
+        #slider {
+            width: 100%;
+            height: 400px;
+            background-color: #00ff40;
+            position: relatve;
+        }
+        #slider .link {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100px;
+            height: 300px;
+            background-color: #125f2c;
+        }
+        #banner {
+            width: 100%;
+            height: 200px;
+            background-color: #df2d00;
+        }
+        #contents {
+            width: 100%;
+            height: 250px;
+            background-color: #690000;
+        }
+        #footer {
+            width: 100%;
+            display: flex;
+        }
+        #footer .footer1 {
+            width: 200px;
+            height: 120px;
+            background-color: #ff00d4;
+        }
+        #footer .footer2 {
+            width: calc(100% - 200px);
+        }
+        #footer .footer2 .footer2-1 {
+            width: 100%;
+            height: 60px;
+            background-color: #00ffdd;
+        }
+        #footer .footer2 .footer2-2 {
+            width: 100%;
+            height: 60px;
+            background-color: #702e4a;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <aside id="aside">
+            <h1 class="logo"></h1>
+            <nav class="nav"></nav>
+        </aside>
+        <main id="main">
+            <article id="slider">
+                <article class="image"></article>
+                <article class="link"></article>
+            </article>
+            <article id="banner"></article>
+            <section id="contents"></section>
+        </main>
+        <footer id="footer">
+            <div class="footer1"></div>
+            <div class="footer2">
+                <div class="footer2-1"></div>
+                <div class="footer2-2"></div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
